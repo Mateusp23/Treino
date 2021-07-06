@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1080132018119",
+    "firebase_url": "https://teste-8d526-default-rtdb.firebaseio.com",
+    "project_id": "teste-8d526",
+    "storage_bucket": "teste-8d526.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080132018119:android:2a1c72455c9fef78c903e2",
+        "android_client_info": {
+          "package_name": "com.example.treino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080132018119-empcu3lk9a5frr28gjc81h769uneiiv8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.treino",
+            "certificate_hash": "67d29e853619cf93f93c90fa070c5b781d567231"
+          }
+        },
+        {
+          "client_id": "1080132018119-h3l32nh5d71nadvslj7mmrsg6riaimi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxYNxIbwR4rLs4OupI261fbbmybZ-xOXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080132018119-h3l32nh5d71nadvslj7mmrsg6riaimi7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

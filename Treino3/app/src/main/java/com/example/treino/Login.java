@@ -47,9 +47,13 @@ public class Login extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String email = username.getText().toString().trim();
-                String key_password = password.getText().toString().trim();
-                logar(email, key_password);
+                if(username.getText().toString().equals("") || password.getText().toString().equals("")){
+                    Toast.makeText(getApplicationContext(), "Você deve preencher todos os campos", Toast.LENGTH_LONG).show();
+                } else {
+                    String email = username.getText().toString().trim();
+                    String key_password = password.getText().toString().trim();
+                    logar(email, key_password);
+                }
             }
         });
     }

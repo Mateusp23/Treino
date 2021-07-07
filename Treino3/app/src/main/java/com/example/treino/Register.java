@@ -24,6 +24,8 @@ public class Register extends AppCompatActivity {
     private Button btnRegister2, btnBack;
     private FirebaseAuth auth; // objeto firebase
 
+    int teste [];
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,9 +46,13 @@ public class Register extends AppCompatActivity {
         btnRegister2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String email = registerEmail.getText().toString().trim();
-                String password = registerPassword.getText().toString().trim();
-                createUser(email, password);
+                if(registerEmail.getText().toString().equals("") || registerPassword.getText().toString().equals("")){
+                    Toast.makeText(getApplicationContext(), "Você deve preencher todos os campos", Toast.LENGTH_LONG).show();
+                } else {
+                    String email = registerEmail.getText().toString().trim();
+                    String password = registerPassword.getText().toString().trim();
+                    createUser(email, password);
+                }
             }
         });
     }

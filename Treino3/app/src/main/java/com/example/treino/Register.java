@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.treino.utils.Connection;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -21,19 +22,20 @@ public class Register extends AppCompatActivity {
 
     private EditText registerEmail, registerPassword;
     private Button btnRegister2, btnBack;
-    private FirebaseAuth auth;
+    private FirebaseAuth auth; // objeto firebase
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+        getSupportActionBar().hide();
 
         startComponents();
         eventClicks();
     }
 
     private void eventClicks() {
-        btnBack.setOnClickListener(new View.OnClickListener() {
+        btnBack.setOnClickListener(new View.OnClickListener() { // voltar
             @Override
             public void onClick(View v) {
                 finish();
@@ -55,18 +57,18 @@ public class Register extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull @NotNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
-                            alert("Usuario cadastrado");
+                            alert("Usuário cadastrado");
                             Intent i = new Intent (Register.this, MainActivity.class);
                             startActivity(i);
                             finish();
                         } else{
-                            alert("Erro ao cadastrar usuario");
+                            alert("Erro ao cadastrar usuário");
                         }
                     }
                 });
     }
 
-    private void alert(String message){
+    private void alert(String message){ // exibindo informações de texto
         Toast.makeText(Register.this, message, Toast.LENGTH_SHORT).show();
     }
 

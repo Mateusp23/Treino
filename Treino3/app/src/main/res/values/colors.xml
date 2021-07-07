@@ -7,5 +7,7 @@
     <color name="teal_700">#2F5521</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="btnRadius">#E9196A1D</color>
+
+    <color name="colorTexts">#FFFFFFFF</color>
+    <color name="btnRadius">#E918651B</color>
 </resources>

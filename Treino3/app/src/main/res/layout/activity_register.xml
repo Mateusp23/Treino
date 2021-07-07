@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ic_background_degrade"
     tools:context=".Register">
 
     <TextView
@@ -11,9 +12,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="96dp"
-        android:text="CADASTRO"
-        android:textAllCaps="true"
-        android:textColor="@color/black"
+        android:text="Cadastro"
+        android:textAllCaps="false"
+        android:textColor="@color/colorTexts"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,13 +27,15 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorTexts"
+        android:textColorHint="@color/colorTexts"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -44,8 +47,10 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="32dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="Senha"
+        android:inputType="textPassword"
+        android:textColor="@color/colorTexts"
+        android:textColorHint="@color/colorTexts"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/registerEmail" />
@@ -59,9 +64,12 @@
         android:layout_marginEnd="32dp"
         android:background="@drawable/btn_radius"
         android:text="CADASTRAR"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btnBack"
-        app:layout_constraintTop_toBottomOf="@+id/registerPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/registerPassword"
+        android:stateListAnimator="@null"
+        android:elevation="30dp"/>
 
     <Button
         android:id="@+id/btnBack"
@@ -72,7 +80,21 @@
         android:layout_marginEnd="8dp"
         android:background="@drawable/btn_radius"
         android:text="VOLTAR"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/btnRegister2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/registerPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/registerPassword"
+        android:stateListAnimator="@null"
+        android:elevation="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack"
+        app:srcCompat="@drawable/treino_icon" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,15 +1,20 @@
 <resources>
     <string name="app_name">Treino</string>
-    <string name="title_activity_login">LoginActivity</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
-    <string name="login_failed">"Login failed"</string>
-    <string name="name_input">nome do treino</string>
-    <string name="description_input">descrição</string>
+
+    <string name="email_login">Email</string>
+    <string name="password_login">Password</string>
+    <string name="btn_login_login">Login</string>
+    <string name="btn_register_login">Cadastro</string>
+    <string name="title_login">Entre ou Cadastre-se</string>
+
     <string name="text_hello">TextView</string>
+    <string name="name_workout">nome do treino</string>
+    <string name="description_workout">descrição</string>
+
+    <string name="title_register">Cadastro</string>
+    <string name="email_register">E-mail</string>
+    <string name="password_register">Senha</string>
+    <string name="btn_register_register">CADASTRAR</string>
+    <string name="btn_back_register">VOLTAR</string>
+    <string name="textSplash">Bem-vindo ao app de Treino ®</string>
 </resources>

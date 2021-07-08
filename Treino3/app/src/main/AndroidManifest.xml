@@ -13,7 +13,8 @@
         android:theme="@style/Theme.Treino">
         <activity android:name=".ui.Register"/>
         <activity android:name=".ui.Login"/>
-        <activity android:name=".ui.SplashActivity">
+        <activity android:name=".ui.SplashActivity"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

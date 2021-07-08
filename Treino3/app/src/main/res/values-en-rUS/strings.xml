@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Workout</string>
+    <string name="email_login">E-mail</string>
+    <string name="password_login">Password</string>
+    <string name="btn_login_login">Login</string>
+    <string name="btn_register_login">Register</string>
+    <string name="title_login">LogIn or SignUp</string>
+    <string name="text_hello">Hello</string>
+    <string name="name_workout">workout name</string>
+    <string name="description_workout">workout description</string>
+    <string name="title_register">Register</string>
+    <string name="email_register">E-mail</string>
+    <string name="password_register">Password</string>
+    <string name="btn_register_register">Register</string>
+    <string name="btn_back_register">Back</string>
+    <string name="textSplash">Welcome to the Workout app</string>
+</resources>

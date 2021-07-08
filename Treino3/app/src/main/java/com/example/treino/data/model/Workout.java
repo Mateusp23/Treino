@@ -35,6 +35,6 @@ public class Workout {
 
     @Override
     public String toString() {
-        return "" + name +" \n\n" + description;
+        return "\n" + name +" \n\n" + description+"\n";
     }
 }

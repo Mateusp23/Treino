@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ic_background_degrade"
-    tools:context=".Register">
+    tools:context=".ui.Register">
 
     <TextView
         android:id="@+id/textView"

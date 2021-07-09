@@ -207,7 +207,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onComplete(@NonNull @NotNull Task<Uri> task) {
                         Uri url = task.getResult();
                         Toast.makeText(MainActivity.this,
-                                "Sucesso ao fazer upload da imagem: " +url.toString(), Toast.LENGTH_LONG).show();
+                                "Sucesso ao fazer upload da imagem! ", Toast.LENGTH_LONG).show(); //+url.toString() imprimir o link
                     }
                 });
             }

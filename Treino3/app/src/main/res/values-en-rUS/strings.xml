@@ -8,7 +8,7 @@
     <string name="title_login">LogIn or SignUp</string>
     <string name="text_hello">Hello</string>
     <string name="name_workout">workout name</string>
-    <string name="description_workout">workout description</string>
+    <string name="description_workout">workout description/exercise</string>
     <string name="title_register">Register</string>
     <string name="email_register">E-mail</string>
     <string name="password_register">Password</string>

@@ -9,7 +9,7 @@
 
     <string name="text_hello">TextView</string>
     <string name="name_workout">nome do treino</string>
-    <string name="description_workout">descrição</string>
+    <string name="description_workout">descrição/exercicio</string>
 
     <string name="title_register">Cadastro</string>
     <string name="email_register">E-mail</string>

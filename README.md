@@ -6,6 +6,8 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
+SDK 26
+
 <img alt="Java" src="https://camo.githubusercontent.com/7b23e6c442adf9ef0714d6b52c2621b3ebef58bcc2f101b8dabab05904201e4f/68747470733a2f2f63646e2e69636f6e73636f75742e636f6d2f69636f6e2f667265652f706e672d3235362f6a6176612d34332d3536393330352e706e67" width="80px"> <img alt="Android Studio" src="https://2.bp.blogspot.com/-tzm1twY_ENM/XlCRuI0ZkRI/AAAAAAAAOso/BmNOUANXWxwc5vwslNw3WpjrDlgs9PuwQCLcBGAsYHQ/s1600/pasted%2Bimage%2B0.png" width="80px"> <img alt="Firebase" src="https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png?hl=pt-br" width="60px"> <img alt="Figmae" src="https://cdn.shopify.com/s/files/1/0284/7024/7555/products/figma2x_1048x.png?v=1591893627" width="80px">
 
 + [Java](https://developer.android.com/studio/write/java8-support?hl=pt&gclid=Cj0KCQjwxJqHBhC4ARIsAChq4avQIScxqhJa7E2WXY0uDyspOxM9Oh3-AZKxPjNCLxOQoSdtwURLYK0aAg0pEALw_wcB&gclsrc=aw.ds)

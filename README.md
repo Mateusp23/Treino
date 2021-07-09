@@ -28,7 +28,7 @@ Você pode visualizar o layout do projeto através do link abaixo:
 
 Lembrando que você precisa ter uma conta no [Figma](http://figma.com/).
 
-## 🔖 Layout no Celular 📲
+## 📲 Layout no Celular 
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/61236430/125094387-97742c00-e0a9-11eb-9557-db3ea0db7c05.PNG" width="200px" />

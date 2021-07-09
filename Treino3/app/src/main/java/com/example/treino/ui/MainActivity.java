@@ -143,11 +143,15 @@ public class MainActivity extends AppCompatActivity {
 
     private void insertWorkout() {
         Workout workout = new Workout();
-        workout.setUid(UUID.randomUUID().toString());
-        workout.setName(editName.getText().toString());
-        workout.setDescription(editDescription.getText().toString());
-        databaseReference.child("Workout").child(workout.getUid()).setValue(workout);
-        Toast.makeText(getApplicationContext(), "Treino inserido", Toast.LENGTH_SHORT).show();
+        if(editName.getText().toString().equals("") || editDescription.getText().toString().equals("")){
+            Toast.makeText(getApplicationContext(), "Você deve preencher todos os campos", Toast.LENGTH_LONG).show();
+        } else {
+            workout.setUid(UUID.randomUUID().toString());
+            workout.setName(editName.getText().toString());
+            workout.setDescription(editDescription.getText().toString());
+            databaseReference.child("Workout").child(workout.getUid()).setValue(workout);
+            Toast.makeText(getApplicationContext(), "Treino inserido", Toast.LENGTH_SHORT).show();
+        }
     }
 
     private void deleteWorkout() {
@@ -159,11 +163,15 @@ public class MainActivity extends AppCompatActivity {
 
     private void editWorkout() {
         Workout workout = new Workout();
-        workout.setUid(workoutSelected.getUid());
-        workout.setName(editName.getText().toString().trim());
-        workout.setDescription(editDescription.getText().toString().trim());
-        databaseReference.child("Workout").child(workout.getUid()).setValue(workout);
-        Toast.makeText(getApplicationContext(), "Treino atualizado", Toast.LENGTH_SHORT).show();
+        if(editName.getText().toString().equals("") || editDescription.getText().toString().equals("")){
+            Toast.makeText(getApplicationContext(), "Você deve preencher todos os campos", Toast.LENGTH_LONG).show();
+        } else {
+            workout.setUid(workoutSelected.getUid());
+            workout.setName(editName.getText().toString().trim());
+            workout.setDescription(editDescription.getText().toString().trim());
+            databaseReference.child("Workout").child(workout.getUid()).setValue(workout);
+            Toast.makeText(getApplicationContext(), "Treino atualizado", Toast.LENGTH_SHORT).show();
+        }
     }
 
     private void uploadImage(){

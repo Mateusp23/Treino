@@ -9,5 +9,6 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="colorTexts">#FFFFFFFF</color>
-    <color name="btnRadius">#E918651B</color>
+    <color name="colorGreens">#2C4528</color>
+    <color name="btnRadius">#365431</color>
 </resources>

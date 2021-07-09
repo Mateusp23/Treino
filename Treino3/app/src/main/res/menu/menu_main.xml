@@ -2,24 +2,32 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:id="@+id/back_menu"
-        android:title="Voltar"
+    <item
+        android:id="@+id/back_menu"
         android:icon="@drawable/ic_back"
-        app:showAsAction="always"/>
+        android:iconTint="@color/colorTexts"
+        android:title="Voltar"
+        app:showAsAction="always" />
 
-    <item android:id="@+id/new_menu"
-        android:title="Novo"
+    <item
+        android:id="@+id/new_menu"
         android:icon="@drawable/ic_new"
-        app:showAsAction="always"/>
+        android:iconTint="@color/colorTexts"
+        android:title="Novo"
+        app:showAsAction="always" />
 
-    <item android:id="@+id/edit_menu"
-        android:title="Editar"
+    <item
+        android:id="@+id/edit_menu"
         android:icon="@drawable/ic_edit"
-        app:showAsAction="always"/>
+        android:iconTint="@color/colorTexts"
+        android:title="Editar"
+        app:showAsAction="always" />
 
-    <item android:id="@+id/delete_menu"
-        android:title="Deletar"
+    <item
+        android:id="@+id/delete_menu"
         android:icon="@drawable/ic_delete"
-        app:showAsAction="always"/>
+        android:iconTint="@color/colorTexts"
+        android:title="Deletar"
+        app:showAsAction="always" />
 
 </menu>

@@ -3,6 +3,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <solid android:color="@color/btnRadius"/>
-    <corners android:radius="60dp"/>
+    <corners android:radius="30dp"/>
 
 </shape>
